@@ -1,0 +1,6 @@
+authtoken: 1s1zxgNZw9aapesjXl9gLWqNLkM_47orakXMWjmEi4sNnnXy8
+
+tunnels:
+  front-end:
+    proto: http
+    addr: 80

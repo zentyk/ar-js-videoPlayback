@@ -1,0 +1,12 @@
+version: '3'
+services:
+  client:
+    container_name: front-end
+    image: nginx:1.14.2-alpine
+    restart: always
+    ports: 
+    - "80:80"
+    volumes:
+    - ./dist:/usr/share/nginx/html:ro #./ apunta desde el directorio en turno, / apunta desde la raiz del sistema
+volumes:
+  data:
